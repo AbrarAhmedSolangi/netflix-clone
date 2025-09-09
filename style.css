@@ -1,0 +1,606 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.main {
+    position: relative;
+    background: url(imgi_42_PK-en-20250818-TRIFECTA-perspective_faa879b7-3577-487b-b1b3-496863107eb1_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+
+}
+
+.box {
+    position: absolute;
+    background-color: black;
+    opacity: 0.60;
+    height: 90vh;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    position: relative;
+    z-index: 10;
+}
+
+
+.navbar {
+    width: 65%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    position: relative;
+    z-index: 10;
+
+
+}
+
+.button button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logo svg {
+    height: 40px;
+
+}
+
+
+.hero {
+    position: relative;
+    z-index: 10;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.p1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    padding: 5px;
+
+}
+
+
+.p2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    padding: 5px;
+
+}
+
+.p3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 25px;
+    color: white;
+
+}
+
+
+.p4 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    padding: 20px;
+
+}
+
+
+.hero button {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.hero input {
+
+    background-color: #131212;
+    color: white;
+    padding: 15px 20px;
+    margin-right: 10px;
+
+    border: none;
+    border: 1px solid #5E5E5E;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: capitalize;
+
+
+}
+
+
+
+.separation-section {
+    background-color: #DA1129;
+    height: 5px;
+    width: 100%;
+
+}
+
+
+.main-container {
+    background: black;
+    padding-top: 5em;
+}
+
+
+
+.h1 {
+    padding-top: 2em;
+
+    max-width: 1280px;
+    width: 100%;
+    color: white;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+.container {
+    padding-top: 2em;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+.cards {
+
+    flex-basis: 15;
+    padding: 2%;
+
+}
+
+.cards img {
+    height: 100%;
+    border-radius: 10px;
+
+
+
+}
+
+.cards :hover {
+
+    transform: scale(1.08);
+    transition: all 1s ease-out;
+
+
+}
+
+
+.card {
+    background-color: #1E172B;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.card h3 {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+}
+
+
+.card p {
+    color: #BBBBC3;
+    padding: 30px 0px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.card svg {
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+
+}
+
+.container-faq {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.items {
+
+    justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 1.3rem;
+
+    background-color: #2D2D2D;
+
+}
+
+
+.items:hover {
+    transition: all 0.5s ease-out;
+
+    background-color: #474747;
+
+}
+
+
+.items span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.items svg {
+    color: white;
+}
+
+
+.input-sec button {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+.input-sec input {
+
+    background-color: #131212;
+    color: white;
+    padding: 15px 20px;
+    margin-right: 10px;
+
+    border: none;
+    border: 1px solid #5E5E5E;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    text-transform: capitalize;
+
+
+}
+
+.input-sec {
+
+    width: 100%;
+}
+
+
+
+footer {
+    background-color: black;
+    padding-top: 2em;
+}
+
+
+
+
+.footer-container {
+    padding-top: 2em;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+
+}
+
+.first {
+    margin: 5rem;
+
+}
+
+.first ul {}
+
+.first ul li {
+    margin: 1rem;
+}
+
+.first ul li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+
+    .logo svg {
+        height: 20px;
+
+    }
+
+
+
+
+
+    .p1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+        padding: 5px;
+
+    }
+
+
+    .p2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+        padding: 5px;
+
+    }
+
+    .p3 {
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 900;
+        padding: 25px;
+
+
+    }
+
+
+    .p4 {
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+
+
+
+
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .hero input {
+        width: 230px;
+        margin: 10px 0;
+        caret-color: rgb(255, 255, 255);
+        width: 86%;
+        font-family: unset;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 1.25rem;
+        padding-right: 1rem;
+        padding-bottom: 0.25rem;
+        padding-left: 1rem;
+
+    }
+
+
+    .hero button {
+
+        padding: 10px 60px;
+        font-size: 20px;
+
+    }
+
+
+
+    .h1 h1 {
+        padding-left: 2rem;
+        font-size: 24px;
+    }
+
+
+    .container {
+
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .cards-h1 {
+        font-size: 35px;
+    }
+
+    .cards {
+        margin: 1rem;
+    }
+
+    .items {
+        margin: 1rem;
+    }
+
+
+    .input-sec input {
+        margin: 10px 0;
+        caret-color: rgb(255, 255, 255);
+        width: 62%;
+        font-family: unset;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding-top: 1.25rem;
+        padding-right: 1rem;
+        padding-bottom: 0.25rem;
+        padding-left: 1rem;
+    }
+
+    .input-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .input-sec button {
+        padding: 11px 0px;
+        font-size: 20px;
+        width: 71%;
+
+    }
+
+
+    .footer-container {
+
+
+
+        flex-wrap: wrap;
+
+
+    }
+
+
+    .first {
+        margin: 2rem;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width:576px) and (max-width:991px) {
+
+    .p4 {
+
+        text-align: center;
+
+    }
+
+    .h1 h1 {
+        padding-left: 1rem;
+    }
+
+
+    .card {
+
+        width: 33%;
+
+    }
+
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .items {
+
+        margin: 15px;
+
+    }
+
+    .input-sec {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+    .p4 {
+
+        text-align: center;
+
+    }
+
+    .h1 h1 {
+        padding-left: 1rem;
+    }
+
+
+    .card {
+
+        width: 33%;
+
+    }
+
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .items {
+
+        margin: 15px;
+
+    }
+
+    .input-sec {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+
+
+}
